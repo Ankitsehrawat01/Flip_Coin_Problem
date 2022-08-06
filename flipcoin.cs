@@ -15,12 +15,12 @@
                 if (result > 0.5)
                 {
                     head++;
-                    Console.WriteLine("Number of times head recieved : " + head);
+                    Console.WriteLine("heads");
                 }
                 else
                 {
                     tail++;
-                    Console.WriteLine("Number of times tail recieved : " + tail);
+                    Console.WriteLine("tails");
                 }
             }
             Console.WriteLine("Chances = " + chances);
